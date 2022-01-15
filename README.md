@@ -1,1 +1,2 @@
 # DiscordWebhookSpammer
+pip install dhooks
