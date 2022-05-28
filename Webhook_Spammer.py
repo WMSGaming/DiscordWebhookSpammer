@@ -14,11 +14,10 @@ print("""
 spam = input("What would you like to spam? ")
 avatarurl = input("What is your avatar url?")
 webhooks = input("Enter webhook to spam:")
-count = True
 hook = Webhook(webhooks)
 
 
-while count:
+while True:
     hook.send(spam,avatar_url=avatarurl)
     time.sleep(0.8)
     print("Attacking Webhook server")
